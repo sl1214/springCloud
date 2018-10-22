@@ -7,6 +7,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Random;
 
 
 @SpringBootApplication
@@ -23,6 +24,13 @@ public class HelloApplication {
     }
     @RequestMapping("/hello")
     public String index(){
+        int sleepTime = new Random().nextInt(3000);
+        logger.info("sleepTime"+sleepTime);
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         logger.info("/hello,host");
         return "Hello World";
     }
