@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/Peer2/pom.xml" />
         <option value="$PROJECT_DIR$/Hello/pom.xml" />
         <option value="$PROJECT_DIR$/RibbonService/pom.xml" />
+        <option value="$PROJECT_DIR$/Feign-Consumer/pom.xml" />
       </list>
     </option>
   </component>
