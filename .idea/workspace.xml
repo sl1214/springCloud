@@ -6,7 +6,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello/src/main/java/com/springcloud/study/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hello/src/main/java/com/springcloud/study/HelloApplication.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Peer1/target/" />
@@ -14,6 +13,7 @@
     <ignored path="$PROJECT_DIR$/Hello/target/" />
     <ignored path="$PROJECT_DIR$/RibbonService/target/" />
     <ignored path="$PROJECT_DIR$/Feign-Consumer/target/" />
+    <ignored path="$PROJECT_DIR$/api-gateway/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,13 +21,27 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HelloApplication.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HelloApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hello/src/main/java/com/springcloud/study/HelloApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="49" column="28" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="28" />
+            <state relative-caret-position="119">
+              <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,11 +49,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SynchronousMethodHandler.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/9.5.1/feign-core-9.5.1.jar!/feign/SynchronousMethodHandler.class">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2507">
-              <caret line="121" selection-start-line="121" selection-end-line="121" />
+            <state relative-caret-position="230">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-gateway/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="41">
+              <caret line="42" column="44" lean-forward="true" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApiGatewayApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/springcloud/study/ApiGatewayApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Feign-Consumer/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" selection-start-line="6" selection-end-line="9" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -56,20 +106,18 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Feign-Consumer/src/main/java/com/springcloud/study/dto/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FeignConsumerApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Feign-Consumer/src/main/java/com/springcloud/study/FeignConsumerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+            <state relative-caret-position="437">
+              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#514#515#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,29 +126,8 @@
       <file leaf-file-name="ConsumerController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Feign-Consumer/src/main/java/com/springcloud/study/controller/ConsumerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Feign-Consumer/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Feign-Consumer/src/main/java/com/springcloud/study/service/HelloService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="95">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,6 +149,9 @@
     <findStrings>
       <find>toS</find>
     </findStrings>
+    <dirStrings>
+      <dir>D:\SpringCloudDemo\Hello\target</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -148,6 +178,9 @@
         <option value="$PROJECT_DIR$/Hello/src/main/java/com/springcloud/study/HelloApplication.java" />
         <option value="$PROJECT_DIR$/Feign-Consumer/src/main/java/com/springcloud/study/dto/User.java" />
         <option value="$PROJECT_DIR$/Hello/src/main/java/com/springcloud/study/dto/User.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/springcloud/study/ApiGatewayApplication.java" />
+        <option value="$PROJECT_DIR$/api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -185,10 +218,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="170" />
-    <option name="y" value="29" />
-    <option name="width" value="721" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="481" />
+    <option name="y" value="37" />
+    <option name="width" value="849" />
     <option name="height" value="621" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -199,6 +232,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,90 +244,25 @@
             <path>
               <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="Feign-Consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="Feign-Consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="Feign-Consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="Feign-Consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="Feign-Consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="Feign-Consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="Feign-Consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="Feign-Consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="Hello" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="Hello" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="Hello" type="462c0819:PsiDirectoryNode" />
+              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="Hello" type="462c0819:PsiDirectoryNode" />
+              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -300,7 +270,7 @@
             <path>
               <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="Hello" type="462c0819:PsiDirectoryNode" />
+              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -309,20 +279,47 @@
             <path>
               <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="Hello" type="462c0819:PsiDirectoryNode" />
+              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Feign-Consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Feign-Consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Feign-Consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Feign-Consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Hello" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -356,7 +353,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Peer1Application">
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -375,6 +372,16 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="api-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.study.ApiGatewayApplication" />
     </configuration>
     <configuration name="FeignConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Feign-Consumer" />
@@ -444,9 +451,11 @@
       <item itemvalue="Spring Boot.FeignConsumerApplication" />
       <item itemvalue="Spring Boot.Peer2Application" />
       <item itemvalue="Spring Boot.HelloApplication" />
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ApiGatewayApplication" />
         <item itemvalue="Spring Boot.HelloApplication" />
         <item itemvalue="Spring Boot.Peer2Application" />
       </list>
@@ -476,28 +485,32 @@
       <workItem from="1540274469694" duration="10000" />
       <workItem from="1540345825123" duration="3352000" />
       <workItem from="1540362545980" duration="10898000" />
-      <workItem from="1540431161232" duration="1693000" />
+      <workItem from="1540431161232" duration="2282000" />
+      <workItem from="1540518143067" duration="3751000" />
+      <workItem from="1540775574941" duration="1803000" />
+      <workItem from="1540862599735" duration="2461000" />
+      <workItem from="1540949011709" duration="3608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66737000" />
+    <option name="totallyTimeSpent" value="78949000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="481" y="37" width="849" height="621" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50075644" side_tool="true" weight="0.35313532" />
-      <window_info anchor="right" id="Maven Projects" order="2" weight="0.14069591" />
+      <window_info anchor="right" id="Maven Projects" order="2" weight="0.34854245" />
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="0" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32953104" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="10" sideWeight="0.49924356" visible="true" weight="0.3289256" />
+      <window_info active="true" anchor="bottom" id="Debug" order="10" sideWeight="0.49924356" visible="true" weight="0.406639" />
       <window_info anchor="bottom" id="TODO" order="13" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.3289256" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
@@ -508,9 +521,10 @@
       <window_info anchor="bottom" id="Run" order="9" weight="0.41157025" />
       <window_info anchor="bottom" id="Spring" order="0" weight="0.3289256" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.5107438" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.1785174" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.12040558" />
       <window_info anchor="right" id="Bean Validation" order="6" />
       <window_info id="Web" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="8" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -518,7 +532,6 @@
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,34 +546,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Peer2/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RibbonService/src/main/java/com/springcloud/study/ribbonservice/RibbonServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Peer1/src/main/java/com/springcloud/study/Peer1Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Peer2/src/main/java/com/springcloud/study/Peer2Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Hello/src/main/java/com/springcloud/study/HelloApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
@@ -717,13 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Peer1/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -790,20 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Feign-Consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="53" column="19" lean-forward="true" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Feign-Consumer/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RibbonService/src/main/java/com/springcloud/study/ribbonservice/RibbonServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -836,10 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="406" column="23" lean-forward="true" selection-start-line="406" selection-start-column="23" selection-end-line="406" selection-end-column="23" />
-          <folding>
-            <element signature="e#2871#2872#0" expanded="true" />
-            <element signature="e#2896#2897#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -871,30 +831,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/9.5.1/feign-core-9.5.1.jar!/feign/SynchronousMethodHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2507">
-          <caret line="121" selection-start-line="121" selection-end-line="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Feign-Consumer/src/main/java/com/springcloud/study/dto/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Feign-Consumer/src/main/java/com/springcloud/study/controller/ConsumerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Hello/src/main/java/com/springcloud/study/dto/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -902,13 +838,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Feign-Consumer/src/main/java/com/springcloud/study/dto/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/9.5.1/feign-core-9.5.1.jar!/feign/SynchronousMethodHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2599">
+          <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Hello/src/main/java/com/springcloud/study/HelloApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="49" column="28" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="28" />
+        <state relative-caret-position="119">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/.mvn/wrapper/maven-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Feign-Consumer/src/main/java/com/springcloud/study/controller/ConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Feign-Consumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Feign-Consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="53" column="19" lean-forward="true" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="42" column="44" lean-forward="true" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/springcloud/study/ApiGatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
         </state>
       </provider>
     </entry>
